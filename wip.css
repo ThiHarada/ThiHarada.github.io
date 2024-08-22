@@ -1,0 +1,30 @@
+body{
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    color: white
+}
+
+section{
+    display: flex;
+
+
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+
+        h1{
+            font-size: 2.5rem;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.icon{
+    border-right: solid #fff 0.1rem;
+    margin-right: 1rem;
+}
